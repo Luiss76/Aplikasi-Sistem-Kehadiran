@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/spacing_xsmall"
+    android:layout_marginRight="@dimen/spacing_xsmall"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/fragment_absen_cardview_card">
+
+    <LinearLayout
+        android:id="@+id/fragment_absen_cardview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.23"
+                android:text="Tanggal"
+                android:textColor="@color/grey_90"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:text=" : "
+                android:textColor="@color/grey_90"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fragment_absen_cardview_tanggal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/grey_90"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="0.23"
+                android:text="Lokasi"
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="0.05"
+                android:text=" : "
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/fragment_absen_cardview_lokasi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="0.23"
+                android:text="Check In"
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="0.05"
+                android:text=" : "
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/fragment_absen_cardview_checkin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="0.23"
+                android:text="Check Out"
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="0.05"
+                android:text=" : "
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/fragment_absen_cardview_checkout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xsmall"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/grey_90"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
